@@ -1773,7 +1773,7 @@ js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.10.0, js-yaml@^3.11.0, js-yaml@^3.5.1, js-yaml@^3.9.1:
+js-yaml@^3.10.0, js-yaml@^3.5.1, js-yaml@^3.9.1:
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
   dependencies:
@@ -3296,9 +3296,9 @@ window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
-wip-bot@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/wip-bot/-/wip-bot-2.4.1.tgz#7b48ef4b4add16c2e73d945da8e8ce34a546a229"
+wip-bot@gr2m/wip-bot:
+  version "0.0.0-development"
+  resolved "https://codeload.github.com/gr2m/wip-bot/tar.gz/8ab13058084b2c595ce124d091bd82528781148a"
   dependencies:
     probot "^6.0.0"
 

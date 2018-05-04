@@ -1,30 +1,31 @@
 {
   "name": "probot-addons-assistant",
   "version": "1.0.0",
-  "description": "",
+  "description": "Community Hass.io Add-ons Assistant",
   "author": "Franck Nijhof <frenck@addons.community> (https://addons.community)",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/hassio-addons/probot-addons-assistant.git",
   "scripts": {
-    "dev": "nodemon --exec \"npm start-probot\"",
-    "start-probot": "probot run ./index.js",
-    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run ./index.js",
-    "lint": "standard --fix"
+    "dev": "nodemon --exec \"npm run start-probot\"",
+    "start-probot": "probot run",
+    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run"
   },
   "dependencies": {
-    "first-timers-bot": "hoodiehq/first-timers-bot",
-    "js-yaml": "^3.11.0",
     "probot": "^6.0.0",
     "probot-config": "^0.1.0",
-    "wip-bot": "^2.4.1"
+    "first-timers-bot": "hoodiehq/first-timers-bot",
+    "wip-bot": "gr2m/wip-bot"
   },
   "devDependencies": {
     "nodemon": "^1.17.2",
     "smee-client": "^1.0.1",
     "standard": "^10.0.3"
   },
-  "engines": {
-    "node": ">= 8.3.0"
+  "probot": {
+    "apps": [
+      "first-timers-bot",
+      "wip-bot"
+    ]
   },
   "now": {
     "alias": "addons-assistant",
