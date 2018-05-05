@@ -11,19 +11,22 @@
     "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run"
   },
   "dependencies": {
-    "probot": "^6.0.0",
-    "probot-config": "^0.1.0",
     "invite-contributors": "erickzhao/invite-contributors",
     "lock-threads": "dessant/lock-threads",
     "move-issue": "dessant/move-issues",
+    "move-issues": "dessant/move-issues",
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
+    "probot": "^6.0.0",
     "probot-autolabeler": "probot/autolabeler",
+    "probot-config": "^0.1.0",
+    "probot-labeler": "probot/autolabeler",
     "probot-no-response": "probot/no-response",
     "probot-settings": "frenck/probot-settings",
     "probot-stale": "probot/stale",
     "probot-unfurl": "probot/unfurl",
     "request-info": "behaviorbot/request-info",
     "support-requests": "dessant/support-requests",
+    "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
     "wip-bot": "gr2m/wip-bot"
   },
@@ -35,16 +38,18 @@
   "probot": {
     "apps": [
       "invite-contributors",
-      "lock-threads",
-      "move-issue",
-      "potential-duplicates-bot",
+      "lock-threads/src",
+      "move-issue/src",
+      "potential-duplicates-bot/src",
       "probot-no-response",
       "probot-settings",
       "probot-stale",
       "probot-unfurl",
       "request-info",
-      "support-requests",
-      "welcome",
+      "support-requests/src",
+      "new-issue-welcome",
+      "new-pr-welcome",
+      "first-pr-merge",
       "wip-bot"
     ]
   },

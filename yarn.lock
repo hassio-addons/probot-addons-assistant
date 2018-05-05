@@ -3552,7 +3552,7 @@ morgan@^1.9.0:
     on-finished "~2.3.0"
     on-headers "~1.0.1"
 
-move-issue@dessant/move-issues:
+move-issue@dessant/move-issues, move-issues@dessant/move-issues:
   version "0.2.1"
   resolved "https://codeload.github.com/dessant/move-issues/tar.gz/a878c1373f4050984b26e1053b6dd911d3336909"
   dependencies:
@@ -4126,7 +4126,7 @@ private@^0.1.8:
   version "1.0.0"
   resolved "https://codeload.github.com/probot/attachments/tar.gz/1e2ddf0b3449a4ad43ab67d6ad891a958b8c8d24"
 
-probot-autolabeler@probot/autolabeler:
+probot-autolabeler@probot/autolabeler, probot-labeler@probot/autolabeler:
   version "1.0.0"
   resolved "https://codeload.github.com/probot/autolabeler/tar.gz/b593c780a14e34280faffb70df75830289d95d67"
   dependencies:
@@ -4175,7 +4175,7 @@ probot-stale@probot/stale:
     probot-scheduler "^1.0.2"
     standard "^11.0.0"
 
-probot-unfurl@probot/unfurl:
+probot-unfurl@probot/unfurl, unfurl@probot/unfurl:
   version "1.0.0"
   resolved "https://codeload.github.com/probot/unfurl/tar.gz/19116468411b49ed06ba4ee230efc2f32bb2b0f8"
   dependencies:
