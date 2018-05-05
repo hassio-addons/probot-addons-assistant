@@ -37,7 +37,7 @@
     "apps": [
       "invite-contributors",
       "lock-threads/src",
-      "move-issue/src",
+      "move-issues/src",
       "potential-duplicates-bot/src",
       "probot-no-response",
       "probot-settings",
