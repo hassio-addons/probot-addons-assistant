@@ -163,12 +163,12 @@ branches:
           teams:
             - Admins
             - Masters
-    required_status_checks:
-      strict: false
-      contexts: []
-    enforce_admins: true
-    restrictions:
-      users: []
-      teams:
-        - Admins
-        - Masters
+      required_status_checks:
+        strict: false
+        contexts: []
+      enforce_admins: true
+      restrictions:
+        users: []
+        teams:
+          - Admins
+          - Masters
