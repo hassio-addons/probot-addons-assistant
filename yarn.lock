@@ -1190,8 +1190,8 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 ejs@^2.5.7:
-  version "2.5.9"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.9.tgz#7ba254582a560d267437109a68354112475b0ce5"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -2435,7 +2435,7 @@ invert-kv@^1.0.0:
 
 invite-contributors@erickzhao/invite-contributors:
   version "1.2.2"
-  resolved "https://codeload.github.com/erickzhao/invite-contributors/tar.gz/c3b946dd244141e2912ff4c997ca0b6a58fba38b"
+  resolved "https://codeload.github.com/erickzhao/invite-contributors/tar.gz/7783e72498074fc80a3e76b21104badf9f194df5"
   dependencies:
     probot "^3.0.3"
 
@@ -3552,7 +3552,7 @@ morgan@^1.9.0:
     on-finished "~2.3.0"
     on-headers "~1.0.1"
 
-move-issue@dessant/move-issues, move-issues@dessant/move-issues:
+move-issues@dessant/move-issues:
   version "0.2.1"
   resolved "https://codeload.github.com/dessant/move-issues/tar.gz/a878c1373f4050984b26e1053b6dd911d3336909"
   dependencies:
@@ -3696,8 +3696,8 @@ node-pre-gyp@^0.9.0:
     tar "^4"
 
 nodemon@^1.17.2:
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.3.tgz#3b0bbc2ee05ccb43b1aef15ba05c63c7bc9b8530"
+  version "1.17.4"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.4.tgz#243ff9c69ffbf1175f2460f9b023f35a072c15e9"
   dependencies:
     chokidar "^2.0.2"
     debug "^3.1.0"
@@ -4174,16 +4174,6 @@ probot-stale@probot/stale:
     probot-config "^0.1.0"
     probot-scheduler "^1.0.2"
     standard "^11.0.0"
-
-probot-unfurl@probot/unfurl, unfurl@probot/unfurl:
-  version "1.0.0"
-  resolved "https://codeload.github.com/probot/unfurl/tar.gz/19116468411b49ed06ba4ee230efc2f32bb2b0f8"
-  dependencies:
-    ejs "^2.5.7"
-    jsdom "^11.3.0"
-    probot "^6.0.0"
-    probot-attachments "github:probot/attachments"
-    unfurl.js "^1.1.6"
 
 probot@^3.0.0, probot@^3.0.2, probot@^3.0.3:
   version "3.0.3"
@@ -4693,8 +4683,8 @@ sax@^1.2.1, sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
 scramjet-core@^4.9.2:
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/scramjet-core/-/scramjet-core-4.9.2.tgz#0a2307d429908a50c5565a5d747e8aed582c115f"
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/scramjet-core/-/scramjet-core-4.10.0.tgz#d1fbd90a95076092f1d231ea9a4c3241f2ce6f4e"
 
 scramjet@^4.0.1:
   version "4.10.1"
@@ -5341,6 +5331,16 @@ unfurl.js@^1.1.6:
     lodash "^4.17.4"
     pify "^2.3.0"
     request "^2.81.0"
+
+unfurl@probot/unfurl:
+  version "1.0.0"
+  resolved "https://codeload.github.com/probot/unfurl/tar.gz/19116468411b49ed06ba4ee230efc2f32bb2b0f8"
+  dependencies:
+    ejs "^2.5.7"
+    jsdom "^11.3.0"
+    probot "^6.0.0"
+    probot-attachments "github:probot/attachments"
+    unfurl.js "^1.1.6"
 
 union-value@^1.0.0:
   version "1.0.0"
