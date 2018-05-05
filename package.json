@@ -13,7 +13,18 @@
   "dependencies": {
     "probot": "^6.0.0",
     "probot-config": "^0.1.0",
-    "first-timers-bot": "hoodiehq/first-timers-bot",
+    "invite-contributors": "erickzhao/invite-contributors",
+    "lock-threads": "dessant/lock-threads",
+    "move-issue": "dessant/move-issues",
+    "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
+    "probot-autolabeler": "probot/autolabeler",
+    "probot-no-response": "probot/no-response",
+    "probot-settings": "frenck/probot-settings",
+    "probot-stale": "probot/stale",
+    "probot-unfurl": "probot/unfurl",
+    "request-info": "behaviorbot/request-info",
+    "support-requests": "dessant/support-requests",
+    "welcome": "behaviorbot/welcome",
     "wip-bot": "gr2m/wip-bot"
   },
   "devDependencies": {
@@ -23,7 +34,17 @@
   },
   "probot": {
     "apps": [
-      "first-timers-bot",
+      "invite-contributors",
+      "lock-threads",
+      "move-issue",
+      "potential-duplicates-bot",
+      "probot-no-response",
+      "probot-settings",
+      "probot-stale",
+      "probot-unfurl",
+      "request-info",
+      "support-requests",
+      "welcome",
       "wip-bot"
     ]
   },
